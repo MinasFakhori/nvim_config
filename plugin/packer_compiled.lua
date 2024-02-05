@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/Users/minas.fakhori/.cache/nvim/packer_hererocks/2.1.1696795921/share/lua/5.1/?.lua;/Users/minas.fakhori/.cache/nvim/packer_hererocks/2.1.1696795921/share/lua/5.1/?/init.lua;/Users/minas.fakhori/.cache/nvim/packer_hererocks/2.1.1696795921/lib/luarocks/rocks-5.1/?.lua;/Users/minas.fakhori/.cache/nvim/packer_hererocks/2.1.1696795921/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/Users/minas.fakhori/.cache/nvim/packer_hererocks/2.1.1696795921/lib/lua/5.1/?.so"
+local package_path_str = "/Users/minasfakhori/.cache/nvim/packer_hererocks/2.1.1703358377/share/lua/5.1/?.lua;/Users/minasfakhori/.cache/nvim/packer_hererocks/2.1.1703358377/share/lua/5.1/?/init.lua;/Users/minasfakhori/.cache/nvim/packer_hererocks/2.1.1703358377/lib/luarocks/rocks-5.1/?.lua;/Users/minasfakhori/.cache/nvim/packer_hererocks/2.1.1703358377/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/Users/minasfakhori/.cache/nvim/packer_hererocks/2.1.1703358377/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -76,48 +76,48 @@ time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
   harpoon = {
     loaded = true,
-    path = "/Users/minas.fakhori/.local/share/nvim/site/pack/packer/start/harpoon",
+    path = "/Users/minasfakhori/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/theprimeagen/harpoon"
   },
   ["markdown-preview.nvim"] = {
     loaded = true,
-    path = "/Users/minas.fakhori/.local/share/nvim/site/pack/packer/start/markdown-preview.nvim",
+    path = "/Users/minasfakhori/.local/share/nvim/site/pack/packer/start/markdown-preview.nvim",
     url = "https://github.com/iamcco/markdown-preview.nvim"
   },
   ["nvim-terminal"] = {
     config = { "\27LJ\2\nX\0\0\3\0\6\0\n6\0\0\0009\0\1\0+\1\2\0=\1\2\0006\0\3\0'\2\4\0B\0\2\0029\0\5\0B\0\1\1K\0\1\0\nsetup\18nvim-terminal\frequire\vhidden\6o\bvim\0" },
     loaded = true,
-    path = "/Users/minas.fakhori/.local/share/nvim/site/pack/packer/start/nvim-terminal",
+    path = "/Users/minasfakhori/.local/share/nvim/site/pack/packer/start/nvim-terminal",
     url = "https://github.com/s1n7ax/nvim-terminal"
   },
   ["nvim-treesitter"] = {
     loaded = true,
-    path = "/Users/minas.fakhori/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    path = "/Users/minasfakhori/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["packer.nvim"] = {
     loaded = true,
-    path = "/Users/minas.fakhori/.local/share/nvim/site/pack/packer/start/packer.nvim",
+    path = "/Users/minasfakhori/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
   playground = {
     loaded = true,
-    path = "/Users/minas.fakhori/.local/share/nvim/site/pack/packer/start/playground",
+    path = "/Users/minasfakhori/.local/share/nvim/site/pack/packer/start/playground",
     url = "https://github.com/nvim-treesitter/playground"
   },
   ["plenary.nvim"] = {
     loaded = true,
-    path = "/Users/minas.fakhori/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    path = "/Users/minasfakhori/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
-    path = "/Users/minas.fakhori/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    path = "/Users/minasfakhori/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
   undotree = {
     loaded = true,
-    path = "/Users/minas.fakhori/.local/share/nvim/site/pack/packer/start/undotree",
+    path = "/Users/minasfakhori/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
   }
 }
